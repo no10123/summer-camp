@@ -6,6 +6,10 @@ meets req. of 3 pages + a 404 page, has 3 js funcs, a gradient background, and c
 
 site url - [https://no10123.github.io/summer-camp/](https://no10123.github.io/summer-camp/)
 
+example of how site looks:
+
+![alt](
+
 credits:
 
 used cattpuchin colors :)
