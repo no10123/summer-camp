@@ -8,7 +8,7 @@ site url - [https://no10123.github.io/summer-camp/](https://no10123.github.io/su
 
 example of how site looks:
 
-![alt](
+![alt](example.png)
 
 credits:
 
