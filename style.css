@@ -30,11 +30,14 @@
 .simg {
     width: 200px;
     height: 200px;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
 }
 
 body {
-    background-color: #37353fdd;
-    color: white;
+    background: linear-gradient(135deg, var(--surface0), var(--overlay2));
+    color: var(--text);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .home {
@@ -101,7 +104,7 @@ ul {
     border: 1px solid #ffffff;
 }
 
-.copy {
+#copy {
     color: var(--text);
     background-color: #353b67;
     border-radius: 4px;
@@ -127,4 +130,35 @@ a:visited {
 canvas {
     position: absolute;
     pointer-events: none;
+}
+
+button {
+    background-color: var(--blue);
+    color: var(--text);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+            
+    margin: 50px auto; 
+    max-width: 500px;
+    border: 2px solid var(--sapphire);
+    border-radius: 12px;
+    background-color: var(--surface1);
 }

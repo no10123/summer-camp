@@ -9,8 +9,8 @@ ctx.lineCap = 'round';
 
 ctx.beginPath();
 
-ctx.moveTo(-10, 400); 
-ctx.bezierCurveTo(0, 370, width / 2, 500, width, 350); 
+ctx.moveTo(-10, 420); 
+ctx.bezierCurveTo(0, 390, width / 2, 520, width, 370); 
 
 ctx.stroke();
 
@@ -18,8 +18,8 @@ ctx.strokeStyle = '#fab387';
 
 ctx.beginPath();
 
-ctx.moveTo(0, 560); 
-ctx.bezierCurveTo(0, 560, width / 2, 590, width, 420); 
+ctx.moveTo(0, 580); 
+ctx.bezierCurveTo(0, 580, width / 2, 610, width, 440); 
 
 ctx.stroke();
 
@@ -27,7 +27,7 @@ ctx.strokeStyle = '#89b4fa';
 
 ctx.beginPath();
 
-ctx.moveTo(0, 790); 
-ctx.bezierCurveTo(0, 800, width / 2, 690, width, 820); 
+ctx.moveTo(0, 810); 
+ctx.bezierCurveTo(0, 820, width / 2, 710, width, 840); 
 
 ctx.stroke();

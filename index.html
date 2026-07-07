@@ -18,12 +18,22 @@
     <h1>hello</h1>
     <h3>hi!</h3>
     <p> this is my dogo </p>
-    <img class="simg" src="dog.jpg">
-    <p>
-        <br>Github              - <a href="https://github.com/no10123">https://github.com/no10123</a>
-        <br>YT                  - <a href="https://www.youtube.com/@reidmacdougall-g5m">https://www.youtube.com/@reidmacdougall-g5m</a>
-        <br>Gmail               - reimacdougall@gmail.com
-        <br>About me            - This <a href="about.html">site</a>
-    <p>
+    <img class="simg" src="dog.jpg" id="Img" onclick="spin()">
+    <div id="container">
+        <p>
+            <br>Github              - <a href="https://github.com/no10123">https://github.com/no10123</a>
+            <br>YT                  - <a href="https://www.youtube.com/@reidmacdougall-g5m">https://www.youtube.com/@reidmacdougall-g5m</a>
+            <br>Gmail               - reimacdougall@gmail.com
+            <br>About me            - This <a href="about.html">site</a>
+        </p>
+    </div>
+    <button id="counter" onclick="counter()">counter: 0</button>
+    <div class="fav-color-container">
+        <span class="color-text">fav-color: </span>
+        <span class="color-box" style="background-color: #a6e3a1;"></span>
+        <span class="color-text">#a6e3a1;</span>
+        <button id="copy" onclick="copyColor()">copy</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
